@@ -1,0 +1,76 @@
+{
+    "Search": [
+    {
+    "Title": "Fast & Furious 6",
+    "Year": "2013",
+    "imdbID": "tt1905041",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious",
+    "Year": "2009",
+    "imdbID": "tt1013752",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious Presents: Hobbs & Shaw",
+    "Year": "2019",
+    "imdbID": "tt6806448",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious Spy Racers",
+    "Year": "2019–2021",
+    "imdbID": "tt8322592",
+    "Type": "series",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYTdmYjFiZTYtZGZlZi00YTBjLWIxYmItYTQ5OWNiZmM5MzczXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious: Supercharged",
+    "Year": "2015",
+    "imdbID": "tt3757982",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BN2M2NzhkMWUtZGJkOS00NjZiLThkOGItMWMwOGQxNjFkMDJhXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious 6: Take Control",
+    "Year": "2013",
+    "imdbID": "tt3401738",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMGNlNTA3ZjEtMjkzMC00ZmZiLTgwYWEtNTczMmU1OTA2NGNlXkEyXkFqcGdeQXVyMjI1MTU3NTM@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious Five Special",
+    "Year": "2011",
+    "imdbID": "tt1913023",
+    "Type": "movie",
+    "Poster": "N/A"
+    },
+    {
+    "Title": "Fast & Furious 8",
+    "Year": "2014",
+    "imdbID": "tt6494060",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWVmY2MxMDAtMGIzNC00NzY0LWI1NjgtMmYxNTRhYjIxNjFkL2ltYWdlXkEyXkFqcGdeQXVyMjA5MzI3MjI@._V1_SX300.jpg"
+    },
+    {
+    "Title": "Fast & Furious 6 Special",
+    "Year": "2013",
+    "imdbID": "tt2936266",
+    "Type": "movie",
+    "Poster": "N/A"
+    },
+    {
+    "Title": "The Road to F9: Fast & Furious Fan Fest",
+    "Year": "2020",
+    "imdbID": "tt11723710",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZjc5Y2U3MjktZTliYi00NWJjLWI3YWYtNDcyZGZiMDFhZGFkXkEyXkFqcGdeQXVyOTQ2NDA3Mjc@._V1_SX300.jpg"
+    }
+    ],
+    "totalResults": "27",
+    "Response": "True"
+    }

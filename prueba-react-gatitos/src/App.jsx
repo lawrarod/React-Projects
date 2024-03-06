@@ -18,22 +18,21 @@ function App () {
   }, [])
 
   useEffect(() => {
-
-    if(!fact) return
+    if (!fact) return
 
     fetch(CAT_IMG_URL)
-    .then(res => res.json())
-    .then(response => {
-      const { url } = response[0]
-      setImageUrl(url)
-    })
+      .then(res => res.json())
+      .then(response => {
+        const { url } = response[0]
+        setImageUrl(url)
+      })
   }, [fact])
 
   return (
     <main>
       <h1>Aplicación de Gatitos</h1>
       {fact && <p>{fact}</p>}
-      {imageUrl && <img src={imageUrl} alt={`image of a cat extracted from the first word of ${fact}`}/>}
+      {imageUrl && <img src={imageUrl} alt='random cat image'/>}
     </main>
   )
 }
