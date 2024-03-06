@@ -23,7 +23,3 @@ Primera iteración:
 ✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
 
 -------------------------
-
-Here is your key: 3e747c73
-Please append it to all of your API requests,
-OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=3e747c73
