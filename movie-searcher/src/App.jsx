@@ -23,7 +23,7 @@ function App () {
         <h1>Bucador de películas</h1>
         <form className='form' onSubmit={handleSubmit}>
           <label htmlFor="búsqueda">Busca aquí tu película: &nbsp;</label>
-          <input onChange={handleInputChange} placeholder='Ej: The Whale' type="text" value={busqueda}/>
+          <input onChange={handleInputChange} placeholder='Ej: Terminator' type="text" value={busqueda}/>
           <button type='submit'>Buscar</button>
         </form>
       </header>
