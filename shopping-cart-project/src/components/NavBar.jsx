@@ -14,10 +14,10 @@ export const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink to='/' className="nav-link active" aria-current="page" href="#">Shopping</NavLink>
+                <NavLink to='/' className="nav-link active" aria-current="page" href="#">Products</NavLink>
               </li>
             </ul>
-            <NavLink to='/carrito'>
+            <NavLink to='/cart'>
               <Badge badgeContent={4} color="secondary">
                 <ShoppingCart />
               </Badge>
