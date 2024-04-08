@@ -2,6 +2,7 @@ import { HomePage } from './Routes/Homepage/HomePage.jsx'
 import { ListPage } from './Routes/ListPage/ListPage.jsx';
 import { Layout } from './Routes/Layout/Layout.jsx'
 import { SinglePage } from './Routes/Siglepage/SinglePage.jsx';
+import { ProfilePage } from './Routes/Profile/ProfilePage.jsx';
 import {
   createBrowserRouter,
   RouterProvider
@@ -26,6 +27,10 @@ function App() {
         {
           path: '/:id',
           element: <SinglePage />
+        },
+        {
+          path: '/profile',
+          element: <ProfilePage />
         }
       ]
     }
