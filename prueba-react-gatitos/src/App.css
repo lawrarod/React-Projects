@@ -5,3 +5,38 @@
   text-align: center;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main>button {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.content {
+  padding: 20px;
+  width: max-content;
+  border: 1px solid #888;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+p {
+  font-weight: 400;
+  width: 500px;
+}
