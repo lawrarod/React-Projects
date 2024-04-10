@@ -6,17 +6,15 @@ export function useCatImage ({ fact }) {
   const [imageUrl, setImageUrl] = useState()
 
   useEffect(() => {
-
-    if(!fact) return
+    if (!fact) return
 
     fetch(CAT_IMG_URL)
-    .then(res => res.json())
-    .then(response => {
-      const { url } = response[0]
-      setImageUrl(url)
-    })
+      .then(res => res.json())
+      .then(response => {
+        const { url } = response[0]
+        setImageUrl(url)
+      })
   }, [fact])
 
   return { imageUrl }
 }
-
