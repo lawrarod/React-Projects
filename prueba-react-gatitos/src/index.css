@@ -20,12 +20,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(250, 183, 138);
+  background-color: lemonchiffon;
 }
 
 h1 {
-  color: white;
-  text-shadow: 1px 1px 1px #888;
+  color: purple;
   font-size: 3.2em;
   line-height: 1.1;
 }

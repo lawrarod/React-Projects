@@ -10,14 +10,24 @@ main {
   flex-direction: column;
 }
 
-main>button {
+button {
   display: flex;
   width: max-content;
   align-self: center;
   margin-top: 20px;
 }
 
+button:hover {
+  background-color: purple;
+  color: white;
+}
+
 .content {
+  display: none;
+}
+
+.visible {
+  display: block;
   padding: 20px;
   width: max-content;
   border: 1px solid #888;
