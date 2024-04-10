@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './navbar.scss'
 import { Link } from 'react-router-dom'
-// import geometrico from './geometrico.png'
 
 export const Navbar = () => {
 
     const [open, setOpen] = useState(false)
+    const user = true
 
     return (
         <nav>
@@ -21,8 +21,21 @@ export const Navbar = () => {
             </div>
 
             <div className="right">
-                <Link to="/">Sign In</Link>
-                <Link to="/" className='register'>Sign Up</Link>
+                {user
+                    ? (
+                        <div className='user'>
+                            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="User's profile picture" />
+                            <span>John Doe</span>
+                            <Link to='/profile' className='profile'>
+                                <div className="notification">3</div>
+                                <span>Profile</span>
+                            </Link>
+                        </div>
+                    )
+                    : (<>
+                        <Link to="/">Sign In</Link>
+                        <Link to="/" className='register'>Sign Up</Link>
+                    </>)}
                 <div className="menuIcon">
                     <img src="/assets/images/menu-icon.png" alt="hamburguer menu icon" onClick={() => setOpen(!open)} />
                 </div>
